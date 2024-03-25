@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "parse": "^5.0.0",
+    "sweetalert2": "^11.10.7"
   }
 }
