@@ -6,9 +6,10 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] [[Objeto Plan Semanal]]
-- [ ] [[Investigar como hacer HOST de una PWA]]
 - [ ] [[Objeto Recetario]]
+- [ ] [[Objeto Plan Semanal]]
+- [ ] [[Objeto Receta]]
+- [ ] [[Investigar como hacer HOST de una PWA]]
 - [ ] [[Investigar como Crear PWA]]
 - [ ] [[CRUD Receta]]
 - [ ] [[CRUD Plan Semanal]]
@@ -18,7 +19,6 @@ kanban-plugin: basic
 
 ## Doing
 
-- [ ] [[Objeto Receta]]
 
 
 ## Done
