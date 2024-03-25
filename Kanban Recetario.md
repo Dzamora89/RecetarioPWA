@@ -19,6 +19,7 @@ kanban-plugin: basic
 
 ## Doing
 
+- [ ] [[Como carajos se instalaba bootstrap]]
 
 
 ## Done
