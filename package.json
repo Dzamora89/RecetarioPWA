@@ -3,6 +3,7 @@
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
     "parse": "^5.0.0",
+    "prettier": "^3.2.5",
     "sweetalert2": "^11.10.7"
   }
 }
