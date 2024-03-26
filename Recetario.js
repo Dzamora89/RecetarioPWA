@@ -15,7 +15,7 @@ let settings = {
                         <h5 class="card-title">${receta.Nombre}</h5>
                         <p class="card-text">${receta.Descripcion}</p>
                         <a href="./verReceta.html?id=${receta.objectId}" class="btn btn-primary">Ver Receta</a>
-                        <a href="" class="btn btn-warning" >Editar Receta</a>
+                        <a href="./editarReceta.html?id=${receta.objectId}" class="btn btn-warning" >Editar Receta</a>
                         <a href="" class="btn btn-danger btnBorrar" id="${receta.objectId}" >Borrar Receta</a>
                     </div>
                     <div class="card-footer">

@@ -8,12 +8,12 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer ></script>
     <script src="./node_modules/jquery/dist/jquery.js" defer></script>
     <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js" defer></script>
-    <script src="./Recetario.js" defer></script>
+    <script src="./editarReceta.js" defer></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand fw-bolder" href="#">Recetario</a>
+        <a class="navbar-brand fw-bolder" href="./Recetario.html">Recetario</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,11 +37,29 @@
         </div>
     </div>
 </nav>
-<nav class="container-fluid d-flex justify-content-end mt-2">
-    <a type="button" class="btn btn-success" href="./CrearNuevaReceta.html" role="button">Crear nueva Receta</a>
-</nav>
-<nav class="container-fluid d-flex flex-column gap-1 justify-content-center align-items-center mt-1 align-content-end" id="containerRecetas">
 
+<form class="m-3">
+    <div class="mb-3">
+        <label for="NombreReceta" class="form-label">Nombre de la Receta</label>
+        <input type="text" class="form-control" id="NombreReceta" placeholder="Inserte el nombre de la Receta">
+    </div>
 
-</nav>
+    <div class="mb-3">
+        <label for="DescripcionReceta" class="form-label">Descripcion de la Receta</label>
+        <input type="text" class="form-control" id="DescripcionReceta" placeholder="Inserte la Descripcion de la Receta">
+    </div>
+    <div id="listaIngredientes" class="mb-3">
+        <label class="form-label">Ingredientes de la Receta</label>
+    </div>
+    <button type="button" class="btn btn-primary" id="AddIngredienteInput">Añadir un ingrediente más </button>
+    <div class="mb-3" id="listaPasos">
+        <label class="form-label">Pasos de la Receta</label>
+    </div>
+    <button type="button" class="btn btn-primary" id="AddPasoInput">Añadir un Paso más </button>
+
+    <div class="container-fluid m-3">
+        <button type="button" class="btn btn-success" id="editarReceta">Guardar Receta</button>
+    </div>
+</form>
 </body>
+</html>
