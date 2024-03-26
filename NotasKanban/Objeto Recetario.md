@@ -3,6 +3,13 @@ Lista de Tarjetas.
 Filtrado de tarjetas por diferentes Tag (Estos aun no estan definidos)
 
 
+Boton Ver Receta
+Boton Editar Receta
+
+
+
+Modal para añadir al planing 
+
 
 Features
 Seria un resumen de la receta

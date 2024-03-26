@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Recetario</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer ></script>
+    <script src="./node_modules/jquery/dist/jquery.js" defer></script>
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js" defer></script>
+    <script src="./verReceta.js" defer></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bolder" href="./Recetario.html">Recetario</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active"  href="./index.html">Lista de la Compra</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Plan%20Semanal.html">Plan Semanal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./Recetario.html">Recetario</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Despensa.html">Despensa</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="container-fluid d-flex flex-column invisible" id="showReceta">
+    <h1 id="Nombre">
+        Nombre de la Receta
+    </h1>
+    <p id="Descripcion">
+        Descripción de la Receta
+    </p>
+    <h2>Ingredientes</h2>
+    <ul id="Ingredientes">
+
+    </ul>
+    <h2>Instrucciónes </h2>
+    <ol id="Pasos">
+
+    </ol>
+
+</nav>
+</body>
+</html>

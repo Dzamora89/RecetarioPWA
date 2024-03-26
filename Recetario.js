@@ -14,12 +14,12 @@ let settings = {
                     <div class="card-body">
                         <h5 class="card-title">${receta.Nombre}</h5>
                         <p class="card-text">${receta.Descripcion}</p>
-                        <a href="#" class="btn btn-primary">Ver Receta</a>
-                        <a href="#" class="btn btn-warning">Editar Receta</a>
-                        <a href="#" class="btn btn-danger btnBorrar" id="${receta.objectId}" >Borrar Receta</a>
+                        <a href="./verReceta.html?id=${receta.objectId}" class="btn btn-primary">Ver Receta</a>
+                        <a href="" class="btn btn-warning" >Editar Receta</a>
+                        <a href="" class="btn btn-danger btnBorrar" id="${receta.objectId}" >Borrar Receta</a>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-success" >Añadir al plan semanal</a>
+                        <a href="" class="btn btn-success" >Añadir al plan semanal</a>
                     </div>
                 </div>
             `)

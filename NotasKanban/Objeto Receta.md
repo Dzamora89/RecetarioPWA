@@ -11,3 +11,6 @@ Ya se ha creado la pagina para crear una receta nueva. Ahora tenemos que sacar v
 
 
 Para un futuro seria bien poder guardar una imagen de la receta
+
+
+Pagina de Ver Receta. 
